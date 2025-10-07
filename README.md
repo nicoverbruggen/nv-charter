@@ -2,11 +2,15 @@
 
 This repository contains **NV Charter**, a renamed version of [XCharter](https://www.ctan.org/tex-archive/fonts/xcharter/), which is an extended version of [Bitstream Charter](https://en.wikipedia.org/wiki/Bitstream_Charter).
 
-This version does not contain any glyph alterations, it just contains a more clarified [license](./LICENSE) which is also included as part of the distributed font files.
+This version omits a few ligatures that consistently looked bad on e-ink displays and has adjusted metrics for improved line height. A more clarified [license](./LICENSE) which is also included as part of the distributed font files.
 
 ## How was this made?
 
-The font was renamed and re-exported with [FontForge](https://fontforge.org).
+- A few ligatures were removed, namely: `ff`, `ffi`, `ffl`, `fl`, `fi`.
+- A tweak was made to ensure the `fi` kern pair looks good now that the ligature is gone.
+- Improved line height metrics were set (updated ascent/descent metrics).
+- The font was renamed and re-exported with [FontForge](https://fontforge.org).
+- The copyright notice has been updated to reflect the new name.
 
 I've included the FontForge files in this repository.
 
@@ -20,8 +24,13 @@ This font is _not_ related to the proprietary version, Charter BT.
 Copyright (c) 1989-1992, Bitstream Inc., Cambridge, MA.
 Copyright (c) 2009, 2010, 2011, 2012 Andrey V. Panov 
 Copyright (c) 2013-2024 Michael Sharpe
+Copyright (c) 2025 Nico Verbruggen
 
-These fonts are an extension of Bitstream Charter, whose original license is reproduced below, as required under the terms of that license. The extension provides small caps, oldstyle figures and superior figures in all four styles, accompanied by LaTeX font support files.
+XCharter is an extension of Bitstream Charter, whose original license is reproduced below, as required under the terms of that license. The extension provides small caps, oldstyle figures and superior figures in all four styles, accompanied by LaTeX font support files.
+
+NV Charter is based on XCharter, but contains some manual tweaks and adjustments to metrics for an improved digital reading experience.
+
+---
 
 You are hereby granted permission under all Bitstream propriety rights
 to use, copy, modify, sublicense, sell, and redistribute the 4 Bitstream
