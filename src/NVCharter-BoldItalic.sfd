@@ -3,15 +3,15 @@ FontName: NVCharter-BoldItalic
 FullName: NV Charter Bold Italic
 FamilyName: NV Charter
 Weight: Bold
-Copyright: Copyright (c) 1989-1992, Bitstream Inc., Cambridge, MA.\nCopyright (c) 2009, 2010, 2011, 2012 Andrey V. Panov \nCopyright (c) 2013-2024 Michael Sharpe\n\nThis font is an extension of Bitstream Charter, whose original license is reproduced below, as required under the terms of that license. The extension provides small caps, oldstyle figures and superior figures in all four styles, accompanied by LaTeX font support files.\n\n---\n\nYou are hereby granted permission under all Bitstream propriety rights\nto use, copy, modify, sublicense, sell, and redistribute the 4 Bitstream\nCharter (r) Type 1 outline fonts and the 4 Courier Type 1 outline fonts\nfor any purpose and without restriction; provided, that this notice is\nleft intact on all copies of such fonts and that Bitstream's trademark\nis acknowledged as shown below on all unmodified copies of the 4 Charter\nType 1 fonts.\n\nBITSTREAM CHARTER is a registered trademark of Bitstream Inc.
-Version: 1.221
+Copyright: Copyright (c) 1989-1992, Bitstream Inc., Cambridge, MA.\nCopyright (c) 2009, 2010, 2011, 2012 Andrey V. Panov \nCopyright (c) 2013-2024 Michael Sharpe\nCopyright (c) 2025 Nico Verbruggen\n\nXCharter is an extension of Bitstream Charter, whose original license is reproduced below, as required under the terms of that license. The extension provides small caps, oldstyle figures and superior figures in all four styles, accompanied by LaTeX font support files.\n\nNV Charter is based on XCharter, but contains some manual tweaks and adjustments to metrics for an improved digital reading experience.\n\n---\n\nYou are hereby granted permission under all Bitstream propriety rights\nto use, copy, modify, sublicense, sell, and redistribute the 4 Bitstream\nCharter (r) Type 1 outline fonts and the 4 Courier Type 1 outline fonts\nfor any purpose and without restriction; provided, that this notice is\nleft intact on all copies of such fonts and that Bitstream's trademark\nis acknowledged as shown below on all unmodified copies of the 4 Charter\nType 1 fonts.\n\nBITSTREAM CHARTER is a registered trademark of Bitstream Inc.
+Version: 1.3
 ItalicAngle: -11
 UnderlinePosition: -109
 UnderlineWidth: 90
 Ascent: 800
 Descent: 200
 InvalidEm: 0
-sfntRevision: 0x00013893
+sfntRevision: 0x00014ccd
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1136849748
-ModificationTime: 1739032537
+ModificationTime: 1759846079
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -212,7 +212,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 52 26 9
+WinInfo: 64220 26 9
 BeginPrivate: 6
 BlueValues 31 [-13 0 489 496 671 685 733 736]
 OtherBlues 11 [-218 -218]
@@ -222,7 +222,7 @@ StdVW 5 [120]
 ForceBold 4 true
 EndPrivate
 AnchorClass2: "Anchor-0" "'mkmk' Mark to Mark lookup 0 subtable" "Anchor-1" "'mark' Mark Positioning lookup 1 subtable" "Anchor-2" "'mark' Mark Positioning lookup 1 subtable" "Anchor-3" "'mark' Mark Positioning lookup 1 subtable"
-BeginChars: 65664 1114
+BeginChars: 65664 1109
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -38639,293 +38639,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ff
-Encoding: 64256 64256 971
-Width: 650
-GlyphClass: 2
-Flags: MW
-HStem: 408 59<225 361 225 361 216 361 550 686> 408 325<101 379 298 361 216 379 298 426 298 541 623 686>
-VStem: 359 2 360 1<444 444>
-LayerCount: 2
-Fore
-SplineSet
-383 598 m 1x60
- 299 686 l 1
- 270 651 245 578 225 467 c 1
- 361 467 l 1x90
- 361 408 l 1x60
- 216 408 l 1
- 179 147 l 2
- 166 58 145 -15 107 -75 c 0
- 50 -165 -23 -214 -85 -214 c 0
- -125 -214 -154 -187 -154 -152 c 0
- -154 -123 -140 -100 -114 -89 c 1
- -7 -146 l 1
- 24 -105 40 -22 58 102 c 2
- 101 408 l 1xa0
- 34 400 l 1
- 35 444 l 1
- 113 478 l 1
- 141 636 246 733 350 733 c 0
- 408 733 447 701 447 664 c 0
- 447 634 423 607 383 598 c 1x60
-708 598 m 1
- 624 686 l 1
- 595 651 570 578 550 467 c 1
- 686 467 l 1x90
- 686 408 l 1x50
- 541 408 l 1
- 504 147 l 2
- 491 58 470 -15 432 -75 c 0
- 375 -165 302 -214 240 -214 c 0
- 200 -214 171 -187 171 -152 c 0
- 171 -123 185 -100 211 -89 c 1
- 318 -146 l 1
- 349 -105 365 -22 383 102 c 2
- 426 408 l 1
- 359 400 l 1xa0
- 360 444 l 1
- 438 478 l 1
- 466 636 571 733 675 733 c 0x50
- 733 733 772 701 772 664 c 0
- 772 634 748 607 708 598 c 1
-EndSplineSet
-Kerns2: 821 -19 "'kern' Horizontal Kerning lookup 4 subtable" 820 -19 "'kern' Horizontal Kerning lookup 4 subtable"
-Ligature2: "'liga' Standard Ligatures in Latin lookup 6 subtable" f f
-EndChar
-
-StartChar: fi
-Encoding: 64257 64257 972
-Width: 621
-GlyphClass: 3
-Flags: MW
-HStem: -7 66<403.5 538> 410 57<217 411> 473 20G<506 550 550 550> 587 134<511 543> 714 20G<299.5 380>
-VStem: 354 127<45.5 120> 459 135<638 668.5>
-LayerCount: 2
-Fore
-SplineSet
-531 721 m 0xf2
- 570 721 594 695 594 658 c 0
- 594 618 563 587 523 587 c 0
- 486 587 459 612 459 648 c 0
- 459 689 491 721 531 721 c 0xf2
-389 602 m 1
- 300 686 l 1
- 271 651 245 577 225 467 c 1
- 411 467 l 1
- 506 493 l 1
- 550 493 l 1
- 486 155 l 2
- 483 140 481 126 481 114 c 0
- 481 78 498 59 530 59 c 0
- 546 59 569 64 599 73 c 1
- 599 32 l 1
- 536 7 481 -7 428 -7 c 0
- 379 -7 354 20 354 71 c 0
- 354 90 358 112 363 138 c 2
- 417 409 l 1
- 217 410 l 1
- 180 147 l 2
- 167 58 146 -15 108 -75 c 0
- 51 -165 -23 -214 -84 -214 c 0
- -124 -214 -154 -187 -154 -152 c 0
- -154 -124 -139 -101 -113 -89 c 1
- -6 -146 l 1
- 27 -100 42 -17 59 102 c 2
- 102 408 l 1
- 36 400 l 1
- 36 444 l 1
- 114 478 l 1
- 142 638 247 734 352 734 c 0xec
- 408 734 442 705 442 669 c 0
- 442 642 423 616 389 602 c 1
-EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 6 subtable" f i
-EndChar
-
-StartChar: fl
-Encoding: 64258 64258 973
-Width: 629
-GlyphClass: 3
-Flags: MW
-HStem: -9 63<418.5 536.5> 409 58<224 352 224 352 217 352> 716 20G<553 596 596 596>
-VStem: 359 122<87.5 93>
-LayerCount: 2
-Fore
-SplineSet
-553 736 m 1
- 596 736 l 1
- 589 702 586 682 585 677 c 2
- 492 187 l 2
- 485 149 481 122 481 105 c 0
- 481 70 497 54 530 54 c 0
- 543 54 567 59 602 70 c 1
- 602 31 l 1
- 529 2 476 -9 449 -9 c 0
- 388 -9 359 20 359 81 c 0
- 359 105 365 137 373 179 c 2
- 464 650 l 1
- 426 653 l 1
- 381 605 l 1
- 300 686 l 1
- 271 651 244 577 224 467 c 1
- 352 467 l 1
- 352 409 l 1
- 217 409 l 1
- 180 147 l 2
- 167 57 146 -15 108 -75 c 0
- 51 -165 -24 -214 -85 -214 c 0
- -125 -214 -154 -187 -154 -152 c 0
- -154 -124 -140 -101 -114 -89 c 1
- -7 -146 l 1
- 26 -100 41 -17 58 102 c 2
- 102 408 l 1
- 36 400 l 1
- 36 444 l 1
- 114 478 l 1
- 142 637 245 733 353 733 c 0
- 390 733 416 723 433 703 c 1
- 553 736 l 1
-EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 6 subtable" f l
-EndChar
-
-StartChar: ffi
-Encoding: 64259 64259 974
-Width: 954
-GlyphClass: 2
-Flags: MW
-HStem: -7 66<731.5 866> 408 59<225 361 225 361 216 361> 473 20G<834 878 878 878> 587 134<839 871>
-VStem: 682 127<45.5 120> 787 135<638 668.5>
-LayerCount: 2
-Fore
-SplineSet
-859 721 m 0xf4
- 898 721 922 695 922 658 c 0
- 922 618 891 587 851 587 c 0
- 814 587 787 612 787 648 c 0
- 787 689 819 721 859 721 c 0xf4
-717 602 m 1
- 628 686 l 1
- 599 651 573 577 553 467 c 1
- 739 467 l 1
- 834 493 l 1
- 878 493 l 1
- 814 155 l 2
- 811 140 809 126 809 114 c 0
- 809 78 826 59 858 59 c 0
- 874 59 897 64 927 73 c 1
- 927 32 l 1
- 864 7 809 -7 756 -7 c 0
- 707 -7 682 20 682 71 c 0xf8
- 682 90 686 112 691 138 c 2
- 745 409 l 1
- 545 410 l 1
- 508 147 l 2
- 495 58 474 -15 436 -75 c 0
- 379 -165 305 -214 244 -214 c 0
- 204 -214 174 -187 174 -152 c 0
- 174 -124 189 -101 215 -89 c 1
- 322 -146 l 1
- 355 -100 370 -17 387 102 c 2
- 430 408 l 1
- 364 400 l 1
- 364 444 l 1
- 442 478 l 1
- 470 638 575 734 680 734 c 0
- 736 734 770 705 770 669 c 0
- 770 642 751 616 717 602 c 1
-383 598 m 1
- 299 686 l 1
- 270 651 245 578 225 467 c 1
- 361 467 l 1
- 361 408 l 1
- 216 408 l 1
- 179 147 l 2
- 166 58 145 -15 107 -75 c 0
- 50 -165 -23 -214 -85 -214 c 0
- -125 -214 -154 -187 -154 -152 c 0
- -154 -123 -140 -100 -114 -89 c 1
- -7 -146 l 1
- 24 -105 40 -22 58 102 c 2
- 101 408 l 1
- 34 400 l 1
- 35 444 l 1
- 113 478 l 1
- 141 636 246 733 350 733 c 0
- 408 733 447 701 447 664 c 0
- 447 634 423 607 383 598 c 1
-EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 6 subtable" f f i
-EndChar
-
-StartChar: ffl
-Encoding: 64260 64260 975
-Width: 957
-GlyphClass: 2
-Flags: MW
-HStem: -9 64<744.5 860.5> 408 59<225 359 216 361 550 686>
-VStem: 684 124<41 116>
-LayerCount: 2
-Fore
-SplineSet
-708 598 m 1
- 624 686 l 1
- 595 651 570 578 550 467 c 1
- 686 467 l 1
- 686 408 l 1
- 541 408 l 1
- 504 147 l 2
- 491 58 470 -15 432 -75 c 0
- 375 -165 302 -214 240 -214 c 0
- 200 -214 171 -187 171 -152 c 0
- 171 -123 185 -100 211 -89 c 1
- 318 -146 l 1
- 349 -105 365 -22 383 102 c 2
- 426 408 l 1
- 359 400 l 1
- 359 408 l 1
- 216 408 l 1
- 179 147 l 2
- 166 58 145 -15 107 -75 c 0
- 50 -165 -23 -214 -85 -214 c 0
- -125 -214 -154 -187 -154 -152 c 0
- -154 -123 -140 -100 -114 -89 c 1
- -7 -146 l 1
- 24 -105 40 -22 58 102 c 2
- 101 408 l 1
- 34 400 l 1
- 35 444 l 1
- 113 478 l 1
- 141 636 246 733 350 733 c 0
- 408 733 447 701 447 664 c 0
- 447 634 423 607 383 598 c 1
- 299 686 l 1
- 270 651 245 578 225 467 c 1
- 361 467 l 1
- 361 444 l 1
- 438 478 l 1
- 466 636 571 733 675 733 c 0
- 708 733 734 723 751 708 c 1
- 879 736 l 1
- 923 736 l 1
- 819 179 l 2
- 813 150 808 126 808 106 c 0
- 808 75 826 55 849 55 c 0
- 872 55 899 60 930 70 c 1
- 930 31 l 1
- 858 5 806 -9 773 -9 c 0
- 716 -9 684 17 684 65 c 0
- 684 78 687 95 691 118 c 2
- 790 650 l 1
- 771 653 l 1
- 766 628 743 606 708 598 c 1
-EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 6 subtable" f f l
-EndChar
-
 StartChar: five.oldstyle
-Encoding: 65537 -1 976
+Encoding: 65537 -1 971
 Width: 528
 GlyphClass: 2
 Flags: MW
@@ -38964,7 +38679,7 @@ Substitution2: "'dnom' Denominators lookup 10 subtable" five.denominator
 EndChar
 
 StartChar: six.oldstyle
-Encoding: 65538 -1 977
+Encoding: 65538 -1 972
 Width: 529
 GlyphClass: 2
 Flags: MW
@@ -39002,7 +38717,7 @@ Substitution2: "'dnom' Denominators lookup 10 subtable" six.denominator
 EndChar
 
 StartChar: seven.oldstyle
-Encoding: 65539 -1 978
+Encoding: 65539 -1 973
 Width: 470
 GlyphClass: 2
 Flags: MW
@@ -39031,7 +38746,7 @@ Substitution2: "'dnom' Denominators lookup 10 subtable" seven.denominator
 EndChar
 
 StartChar: eight.oldstyle
-Encoding: 65540 -1 979
+Encoding: 65540 -1 974
 Width: 531
 GlyphClass: 2
 Flags: MW
@@ -39077,7 +38792,7 @@ Substitution2: "'dnom' Denominators lookup 10 subtable" eight.denominator
 EndChar
 
 StartChar: nine.oldstyle
-Encoding: 65541 -1 980
+Encoding: 65541 -1 975
 Width: 524
 GlyphClass: 2
 Flags: MW
@@ -39115,7 +38830,7 @@ Substitution2: "'dnom' Denominators lookup 10 subtable" nine.denominator
 EndChar
 
 StartChar: a.sc
-Encoding: 65542 -1 981
+Encoding: 65542 -1 976
 Width: 558
 GlyphClass: 2
 Flags: MW
@@ -39151,7 +38866,7 @@ EndSplineSet
 EndChar
 
 StartChar: b.sc
-Encoding: 65543 -1 982
+Encoding: 65543 -1 977
 Width: 583
 GlyphClass: 2
 Flags: MW
@@ -39190,7 +38905,7 @@ EndSplineSet
 EndChar
 
 StartChar: c.sc
-Encoding: 65544 -1 983
+Encoding: 65544 -1 978
 Width: 607
 GlyphClass: 2
 Flags: MW
@@ -39222,7 +38937,7 @@ EndSplineSet
 EndChar
 
 StartChar: d.sc
-Encoding: 65545 -1 984
+Encoding: 65545 -1 979
 Width: 669
 GlyphClass: 2
 Flags: MW
@@ -39255,7 +38970,7 @@ EndSplineSet
 EndChar
 
 StartChar: e.sc
-Encoding: 65546 -1 985
+Encoding: 65546 -1 980
 Width: 598
 GlyphClass: 2
 Flags: MW
@@ -39299,7 +39014,7 @@ EndSplineSet
 EndChar
 
 StartChar: f.sc
-Encoding: 65547 -1 986
+Encoding: 65547 -1 981
 Width: 566
 GlyphClass: 2
 Flags: MW
@@ -39341,7 +39056,7 @@ EndSplineSet
 EndChar
 
 StartChar: g.sc
-Encoding: 65548 -1 987
+Encoding: 65548 -1 982
 Width: 643
 GlyphClass: 2
 Flags: MW
@@ -39378,7 +39093,7 @@ EndSplineSet
 EndChar
 
 StartChar: h.sc
-Encoding: 65549 -1 988
+Encoding: 65549 -1 983
 Width: 666
 GlyphClass: 2
 Flags: MW
@@ -39427,7 +39142,7 @@ EndSplineSet
 EndChar
 
 StartChar: i.sc
-Encoding: 65550 -1 989
+Encoding: 65550 -1 984
 Width: 369
 GlyphClass: 2
 Flags: MW
@@ -39456,7 +39171,7 @@ EndSplineSet
 EndChar
 
 StartChar: j.sc
-Encoding: 65551 -1 990
+Encoding: 65551 -1 985
 Width: 470
 GlyphClass: 2
 Flags: MW
@@ -39486,7 +39201,7 @@ EndSplineSet
 EndChar
 
 StartChar: k.sc
-Encoding: 65552 -1 991
+Encoding: 65552 -1 986
 Width: 571
 GlyphClass: 2
 Flags: MW
@@ -39533,7 +39248,7 @@ EndSplineSet
 EndChar
 
 StartChar: l.sc
-Encoding: 65553 -1 992
+Encoding: 65553 -1 987
 Width: 490
 GlyphClass: 2
 Flags: MW
@@ -39564,7 +39279,7 @@ EndSplineSet
 EndChar
 
 StartChar: m.sc
-Encoding: 65554 -1 993
+Encoding: 65554 -1 988
 Width: 763
 GlyphClass: 2
 Flags: MW
@@ -39610,7 +39325,7 @@ EndSplineSet
 EndChar
 
 StartChar: n.sc
-Encoding: 65555 -1 994
+Encoding: 65555 -1 989
 Width: 620
 GlyphClass: 2
 Flags: MW
@@ -39649,7 +39364,7 @@ EndSplineSet
 EndChar
 
 StartChar: o.sc
-Encoding: 65556 -1 995
+Encoding: 65556 -1 990
 Width: 690
 GlyphClass: 2
 Flags: MW
@@ -39676,7 +39391,7 @@ EndSplineSet
 EndChar
 
 StartChar: p.sc
-Encoding: 65557 -1 996
+Encoding: 65557 -1 991
 Width: 576
 GlyphClass: 2
 Flags: MW
@@ -39713,7 +39428,7 @@ EndSplineSet
 EndChar
 
 StartChar: q.sc
-Encoding: 65558 -1 997
+Encoding: 65558 -1 992
 Width: 711
 GlyphClass: 2
 Flags: MW
@@ -39747,7 +39462,7 @@ EndSplineSet
 EndChar
 
 StartChar: r.sc
-Encoding: 65559 -1 998
+Encoding: 65559 -1 993
 Width: 590
 GlyphClass: 2
 Flags: MW
@@ -39791,7 +39506,7 @@ EndSplineSet
 EndChar
 
 StartChar: s.sc
-Encoding: 65560 -1 999
+Encoding: 65560 -1 994
 Width: 585
 GlyphClass: 2
 Flags: MW
@@ -39826,7 +39541,7 @@ EndSplineSet
 EndChar
 
 StartChar: t.sc
-Encoding: 65561 -1 1000
+Encoding: 65561 -1 995
 Width: 614
 GlyphClass: 2
 Flags: MW
@@ -39860,7 +39575,7 @@ EndSplineSet
 EndChar
 
 StartChar: u.sc
-Encoding: 65562 -1 1001
+Encoding: 65562 -1 996
 Width: 629
 GlyphClass: 2
 Flags: MW
@@ -39899,7 +39614,7 @@ EndSplineSet
 EndChar
 
 StartChar: v.sc
-Encoding: 65563 -1 1002
+Encoding: 65563 -1 997
 Width: 544
 GlyphClass: 2
 Flags: MW
@@ -39930,7 +39645,7 @@ EndSplineSet
 EndChar
 
 StartChar: w.sc
-Encoding: 65564 -1 1003
+Encoding: 65564 -1 998
 Width: 791
 GlyphClass: 2
 Flags: MW
@@ -39967,7 +39682,7 @@ EndSplineSet
 EndChar
 
 StartChar: x.sc
-Encoding: 65565 -1 1004
+Encoding: 65565 -1 999
 Width: 503
 GlyphClass: 2
 Flags: MW
@@ -40015,7 +39730,7 @@ EndSplineSet
 EndChar
 
 StartChar: y.sc
-Encoding: 65566 -1 1005
+Encoding: 65566 -1 1000
 Width: 504
 GlyphClass: 2
 Flags: MW
@@ -40055,7 +39770,7 @@ EndSplineSet
 EndChar
 
 StartChar: z.sc
-Encoding: 65567 -1 1006
+Encoding: 65567 -1 1001
 Width: 547
 GlyphClass: 2
 Flags: MW
@@ -40084,7 +39799,7 @@ EndSplineSet
 EndChar
 
 StartChar: ae.sc
-Encoding: 65568 -1 1007
+Encoding: 65568 -1 1002
 Width: 850
 GlyphClass: 2
 Flags: MW
@@ -40141,7 +39856,7 @@ EndSplineSet
 EndChar
 
 StartChar: lslash.sc
-Encoding: 65569 -1 1008
+Encoding: 65569 -1 1003
 Width: 490
 GlyphClass: 2
 Flags: MW
@@ -40180,7 +39895,7 @@ EndSplineSet
 EndChar
 
 StartChar: oslash.sc
-Encoding: 65570 -1 1009
+Encoding: 65570 -1 1004
 Width: 690
 GlyphClass: 2
 Flags: MW
@@ -40220,7 +39935,7 @@ EndSplineSet
 EndChar
 
 StartChar: oe.sc
-Encoding: 65571 -1 1010
+Encoding: 65571 -1 1005
 Width: 955
 GlyphClass: 2
 Flags: MW
@@ -40271,7 +39986,7 @@ EndSplineSet
 EndChar
 
 StartChar: eth.sc
-Encoding: 65572 -1 1011
+Encoding: 65572 -1 1006
 Width: 668
 GlyphClass: 2
 Flags: MW
@@ -40312,7 +40027,7 @@ EndSplineSet
 EndChar
 
 StartChar: thorn.sc
-Encoding: 65573 -1 1012
+Encoding: 65573 -1 1007
 Width: 552
 GlyphClass: 2
 Flags: MW
@@ -40353,7 +40068,7 @@ EndSplineSet
 EndChar
 
 StartChar: dollar.sc
-Encoding: 65574 -1 1013
+Encoding: 65574 -1 1008
 Width: 514
 GlyphClass: 2
 Flags: MW
@@ -40399,7 +40114,7 @@ EndSplineSet
 EndChar
 
 StartChar: exclamdown.sc
-Encoding: 65575 -1 1014
+Encoding: 65575 -1 1009
 Width: 341
 GlyphClass: 2
 Flags: MW
@@ -40424,7 +40139,7 @@ EndSplineSet
 EndChar
 
 StartChar: cent.sc
-Encoding: 65576 -1 1015
+Encoding: 65576 -1 1010
 Width: 530
 GlyphClass: 2
 Flags: MW
@@ -40461,7 +40176,7 @@ EndSplineSet
 EndChar
 
 StartChar: questiondown.sc
-Encoding: 65577 -1 1016
+Encoding: 65577 -1 1011
 Width: 479
 GlyphClass: 2
 Flags: MW
@@ -40492,7 +40207,7 @@ EndSplineSet
 EndChar
 
 StartChar: percent.sc
-Encoding: 65578 -1 1017
+Encoding: 65578 -1 1012
 Width: 737
 GlyphClass: 2
 Flags: MW
@@ -40533,7 +40248,7 @@ EndSplineSet
 EndChar
 
 StartChar: one.Alt.oldstyle
-Encoding: 65579 -1 1018
+Encoding: 65579 -1 1013
 Width: 410
 GlyphClass: 2
 Flags: MW
@@ -40561,7 +40276,7 @@ EndSplineSet
 EndChar
 
 StartChar: abreve.sc
-Encoding: 65580 -1 1019
+Encoding: 65580 -1 1014
 Width: 558
 GlyphClass: 2
 Flags: MW
@@ -40607,7 +40322,7 @@ EndSplineSet
 EndChar
 
 StartChar: aogonek.sc
-Encoding: 65581 -1 1020
+Encoding: 65581 -1 1015
 Width: 558
 GlyphClass: 2
 Flags: MW
@@ -40652,7 +40367,7 @@ EndSplineSet
 EndChar
 
 StartChar: cacute.sc
-Encoding: 65582 -1 1021
+Encoding: 65582 -1 1016
 Width: 607
 GlyphClass: 2
 Flags: MW
@@ -40689,7 +40404,7 @@ EndSplineSet
 EndChar
 
 StartChar: ccaron.sc
-Encoding: 65583 -1 1022
+Encoding: 65583 -1 1017
 Width: 607
 GlyphClass: 2
 Flags: MW
@@ -40729,7 +40444,7 @@ EndSplineSet
 EndChar
 
 StartChar: dcaron.sc
-Encoding: 65584 -1 1023
+Encoding: 65584 -1 1018
 Width: 669
 GlyphClass: 2
 Flags: MW
@@ -40770,7 +40485,7 @@ EndSplineSet
 EndChar
 
 StartChar: ecaron.sc
-Encoding: 65585 -1 1024
+Encoding: 65585 -1 1019
 Width: 598
 GlyphClass: 2
 Flags: MW
@@ -40822,7 +40537,7 @@ EndSplineSet
 EndChar
 
 StartChar: eogonek.sc
-Encoding: 65586 -1 1025
+Encoding: 65586 -1 1020
 Width: 598
 GlyphClass: 2
 Flags: MW
@@ -40874,7 +40589,7 @@ EndSplineSet
 EndChar
 
 StartChar: gbreve.sc
-Encoding: 65587 -1 1026
+Encoding: 65587 -1 1021
 Width: 643
 GlyphClass: 2
 Flags: MW
@@ -40920,7 +40635,7 @@ EndSplineSet
 EndChar
 
 StartChar: lacute.sc
-Encoding: 65588 -1 1027
+Encoding: 65588 -1 1022
 Width: 490
 GlyphClass: 2
 Flags: MW
@@ -40956,7 +40671,7 @@ EndSplineSet
 EndChar
 
 StartChar: lcaron.sc
-Encoding: 65589 -1 1028
+Encoding: 65589 -1 1023
 Width: 490
 GlyphClass: 2
 Flags: MW
@@ -40996,7 +40711,7 @@ EndSplineSet
 EndChar
 
 StartChar: nacute.sc
-Encoding: 65590 -1 1029
+Encoding: 65590 -1 1024
 Width: 620
 GlyphClass: 2
 Flags: MW
@@ -41040,7 +40755,7 @@ EndSplineSet
 EndChar
 
 StartChar: ncaron.sc
-Encoding: 65591 -1 1030
+Encoding: 65591 -1 1025
 Width: 620
 GlyphClass: 2
 Flags: MW
@@ -41088,7 +40803,7 @@ EndSplineSet
 EndChar
 
 StartChar: eng.sc
-Encoding: 65592 -1 1031
+Encoding: 65592 -1 1026
 Width: 616
 GlyphClass: 2
 Flags: MW
@@ -41132,7 +40847,7 @@ EndSplineSet
 EndChar
 
 StartChar: ohungarumlaut.sc
-Encoding: 65593 -1 1032
+Encoding: 65593 -1 1027
 Width: 690
 GlyphClass: 2
 Flags: MW
@@ -41169,7 +40884,7 @@ EndSplineSet
 EndChar
 
 StartChar: racute.sc
-Encoding: 65594 -1 1033
+Encoding: 65594 -1 1028
 Width: 590
 GlyphClass: 2
 Flags: MW
@@ -41218,7 +40933,7 @@ EndSplineSet
 EndChar
 
 StartChar: rcaron.sc
-Encoding: 65595 -1 1034
+Encoding: 65595 -1 1029
 Width: 590
 GlyphClass: 2
 Flags: MW
@@ -41270,7 +40985,7 @@ EndSplineSet
 EndChar
 
 StartChar: sacute.sc
-Encoding: 65596 -1 1035
+Encoding: 65596 -1 1030
 Width: 585
 GlyphClass: 2
 Flags: MW
@@ -41310,7 +41025,7 @@ EndSplineSet
 EndChar
 
 StartChar: scedilla.sc
-Encoding: 65597 -1 1036
+Encoding: 65597 -1 1031
 Width: 585
 GlyphClass: 2
 Flags: MW
@@ -41356,7 +41071,7 @@ EndSplineSet
 EndChar
 
 StartChar: tcaron.sc
-Encoding: 65598 -1 1037
+Encoding: 65598 -1 1032
 Width: 614
 GlyphClass: 2
 Flags: MW
@@ -41398,7 +41113,7 @@ EndSplineSet
 EndChar
 
 StartChar: tcedilla.sc
-Encoding: 65599 -1 1038
+Encoding: 65599 -1 1033
 Width: 614
 GlyphClass: 2
 Flags: MW
@@ -41444,7 +41159,7 @@ EndSplineSet
 EndChar
 
 StartChar: uhungarumlaut.sc
-Encoding: 65600 -1 1039
+Encoding: 65600 -1 1034
 Width: 629
 GlyphClass: 2
 Flags: MW
@@ -41493,7 +41208,7 @@ EndSplineSet
 EndChar
 
 StartChar: uring.sc
-Encoding: 65601 -1 1040
+Encoding: 65601 -1 1035
 Width: 629
 GlyphClass: 2
 Flags: MW
@@ -41542,7 +41257,7 @@ EndSplineSet
 EndChar
 
 StartChar: zacute.sc
-Encoding: 65602 -1 1041
+Encoding: 65602 -1 1036
 Width: 547
 GlyphClass: 2
 Flags: MW
@@ -41576,7 +41291,7 @@ EndSplineSet
 EndChar
 
 StartChar: zdotaccent.sc
-Encoding: 65603 -1 1042
+Encoding: 65603 -1 1037
 Width: 547
 GlyphClass: 2
 Flags: MW
@@ -41611,7 +41326,7 @@ EndSplineSet
 EndChar
 
 StartChar: perthousandzero
-Encoding: 65604 -1 1043
+Encoding: 65604 -1 1038
 Width: 453
 GlyphClass: 2
 Flags: MW
@@ -41636,7 +41351,7 @@ EndSplineSet
 EndChar
 
 StartChar: germandbls.sc.ss01
-Encoding: 65605 -1 1044
+Encoding: 65605 -1 1039
 Width: 1082
 GlyphClass: 2
 Flags: MW
@@ -41694,7 +41409,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" g
 EndChar
 
 StartChar: ij.sc
-Encoding: 65606 -1 1045
+Encoding: 65606 -1 1040
 Width: 839
 GlyphClass: 2
 Flags: MW
@@ -41741,7 +41456,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1E9E.ss01
-Encoding: 65607 -1 1046
+Encoding: 65607 -1 1041
 Width: 1106
 GlyphClass: 2
 Flags: MW
@@ -41799,7 +41514,7 @@ Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 4 subtable" ge
 EndChar
 
 StartChar: dotaccent.i
-Encoding: 65608 -1 1047
+Encoding: 65608 -1 1042
 Width: 318
 GlyphClass: 2
 Flags: MW
@@ -41817,7 +41532,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10072.alt
-Encoding: 65609 -1 1048
+Encoding: 65609 -1 1043
 Width: 850
 GlyphClass: 2
 Flags: MW
@@ -41869,7 +41584,7 @@ EndSplineSet
 EndChar
 
 StartChar: space_uni0311.cap
-Encoding: 65610 -1 1049
+Encoding: 65610 -1 1044
 Width: 500
 GlyphClass: 2
 Flags: MW
@@ -41891,7 +41606,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0300.cap
-Encoding: 65611 -1 1050
+Encoding: 65611 -1 1045
 Width: 0
 GlyphClass: 4
 Flags: MW
@@ -41912,7 +41627,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0301.cap
-Encoding: 65612 -1 1051
+Encoding: 65612 -1 1046
 Width: 0
 GlyphClass: 4
 Flags: MW
@@ -41933,7 +41648,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0302.cap
-Encoding: 65613 -1 1052
+Encoding: 65613 -1 1047
 Width: 0
 GlyphClass: 4
 Flags: MW
@@ -41957,7 +41672,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0303.cap
-Encoding: 65614 -1 1053
+Encoding: 65614 -1 1048
 Width: 0
 GlyphClass: 4
 Flags: MW
@@ -41982,7 +41697,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0306.cap
-Encoding: 65615 -1 1054
+Encoding: 65615 -1 1049
 Width: 0
 GlyphClass: 4
 Flags: MW
@@ -42007,7 +41722,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0307.cap
-Encoding: 65616 -1 1055
+Encoding: 65616 -1 1050
 Width: 0
 GlyphClass: 4
 Flags: MW
@@ -42028,7 +41743,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0308.cap
-Encoding: 65617 -1 1056
+Encoding: 65617 -1 1051
 Width: 0
 GlyphClass: 4
 Flags: MW
@@ -42054,7 +41769,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni030A.cap
-Encoding: 65618 -1 1057
+Encoding: 65618 -1 1052
 Width: 0
 GlyphClass: 4
 Flags: MW
@@ -42080,7 +41795,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni030C.cap
-Encoding: 65619 -1 1058
+Encoding: 65619 -1 1053
 Width: 0
 GlyphClass: 4
 Flags: MW
@@ -42104,7 +41819,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0311.cap
-Encoding: 65620 -1 1059
+Encoding: 65620 -1 1054
 Width: 0
 GlyphClass: 4
 Flags: MW
@@ -42129,7 +41844,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0323.cap
-Encoding: 65621 -1 1060
+Encoding: 65621 -1 1055
 Width: 0
 GlyphClass: 4
 Flags: MW
@@ -42148,7 +41863,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0324.cap
-Encoding: 65622 -1 1061
+Encoding: 65622 -1 1056
 Width: 0
 GlyphClass: 4
 Flags: MW
@@ -42172,7 +41887,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0325.cap
-Encoding: 65623 -1 1062
+Encoding: 65623 -1 1057
 Width: 0
 GlyphClass: 4
 Flags: MW
@@ -42196,7 +41911,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni032D.cap
-Encoding: 65624 -1 1063
+Encoding: 65624 -1 1058
 Width: 0
 GlyphClass: 4
 Flags: MW
@@ -42218,7 +41933,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni032E.cap
-Encoding: 65625 -1 1064
+Encoding: 65625 -1 1059
 Width: 0
 GlyphClass: 4
 Flags: MW
@@ -42241,7 +41956,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0330.cap
-Encoding: 65626 -1 1065
+Encoding: 65626 -1 1060
 Width: 0
 GlyphClass: 4
 Flags: MW
@@ -42264,7 +41979,7 @@ EndSplineSet
 EndChar
 
 StartChar: zero.numerator
-Encoding: 65627 -1 1066
+Encoding: 65627 -1 1061
 Width: 429
 GlyphClass: 2
 Flags: MW
@@ -42294,7 +42009,7 @@ Substitution2: "'dnom' Denominators lookup 10 subtable" zero.denominator
 EndChar
 
 StartChar: one.numerator
-Encoding: 65628 -1 1067
+Encoding: 65628 -1 1062
 Width: 429
 GlyphClass: 2
 Flags: MW
@@ -42325,7 +42040,7 @@ Substitution2: "'dnom' Denominators lookup 10 subtable" one.denominator
 EndChar
 
 StartChar: two.numerator
-Encoding: 65629 -1 1068
+Encoding: 65629 -1 1063
 Width: 429
 GlyphClass: 2
 Flags: MW
@@ -42358,7 +42073,7 @@ Substitution2: "'dnom' Denominators lookup 10 subtable" two.denominator
 EndChar
 
 StartChar: three.numerator
-Encoding: 65630 -1 1069
+Encoding: 65630 -1 1064
 Width: 429
 GlyphClass: 2
 Flags: MW
@@ -42397,7 +42112,7 @@ Substitution2: "'dnom' Denominators lookup 10 subtable" three.denominator
 EndChar
 
 StartChar: four.numerator
-Encoding: 65631 -1 1070
+Encoding: 65631 -1 1065
 Width: 429
 GlyphClass: 2
 Flags: MW
@@ -42429,7 +42144,7 @@ Substitution2: "'dnom' Denominators lookup 10 subtable" four.denominator
 EndChar
 
 StartChar: five.numerator
-Encoding: 65632 -1 1071
+Encoding: 65632 -1 1066
 Width: 429
 GlyphClass: 2
 Flags: MW
@@ -42462,7 +42177,7 @@ Substitution2: "'dnom' Denominators lookup 10 subtable" five.denominator
 EndChar
 
 StartChar: six.numerator
-Encoding: 65633 -1 1072
+Encoding: 65633 -1 1067
 Width: 429
 GlyphClass: 2
 Flags: MW
@@ -42493,7 +42208,7 @@ Substitution2: "'dnom' Denominators lookup 10 subtable" six.denominator
 EndChar
 
 StartChar: seven.numerator
-Encoding: 65634 -1 1073
+Encoding: 65634 -1 1068
 Width: 429
 GlyphClass: 2
 Flags: MW
@@ -42519,7 +42234,7 @@ Substitution2: "'dnom' Denominators lookup 10 subtable" seven.denominator
 EndChar
 
 StartChar: eight.numerator
-Encoding: 65635 -1 1074
+Encoding: 65635 -1 1069
 Width: 429
 GlyphClass: 2
 Flags: MW
@@ -42554,7 +42269,7 @@ Substitution2: "'dnom' Denominators lookup 10 subtable" eight.denominator
 EndChar
 
 StartChar: nine.numerator
-Encoding: 65636 -1 1075
+Encoding: 65636 -1 1070
 Width: 429
 GlyphClass: 2
 Flags: MW
@@ -42585,7 +42300,7 @@ Substitution2: "'dnom' Denominators lookup 10 subtable" nine.denominator
 EndChar
 
 StartChar: germandbls.sc
-Encoding: 65637 -1 1076
+Encoding: 65637 -1 1071
 Width: 635
 GlyphClass: 2
 Flags: MW
@@ -42628,7 +42343,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1E9E.c2sc
-Encoding: 65638 -1 1077
+Encoding: 65638 -1 1072
 Width: 635
 GlyphClass: 2
 Flags: MW
@@ -42671,7 +42386,7 @@ EndSplineSet
 EndChar
 
 StartChar: germandbls.ss01
-Encoding: 65639 -1 1078
+Encoding: 65639 -1 1073
 Width: 622
 GlyphClass: 2
 Flags: MW
@@ -42713,7 +42428,7 @@ EndSplineSet
 EndChar
 
 StartChar: pilcrow
-Encoding: 65640 -1 1079
+Encoding: 65640 -1 1074
 Width: 491
 GlyphClass: 2
 Flags: MW
@@ -42738,7 +42453,7 @@ EndSplineSet
 EndChar
 
 StartChar: i.TRK
-Encoding: 65641 -1 1080
+Encoding: 65641 -1 1075
 Width: 318
 GlyphClass: 2
 Flags: MW
@@ -42774,7 +42489,7 @@ Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" i
 EndChar
 
 StartChar: i.TRKsc
-Encoding: 65642 -1 1081
+Encoding: 65642 -1 1076
 Width: 369
 GlyphClass: 2
 Flags: MW
@@ -42809,7 +42524,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni00A0
-Encoding: 160 160 1082
+Encoding: 160 160 1077
 Width: 293
 GlyphClass: 2
 Flags: W
@@ -42817,7 +42532,7 @@ LayerCount: 2
 EndChar
 
 StartChar: lessequal
-Encoding: 8804 8804 1083
+Encoding: 8804 8804 1078
 Width: 833
 GlyphClass: 2
 Flags: MW
@@ -42843,7 +42558,7 @@ EndSplineSet
 EndChar
 
 StartChar: greaterequal
-Encoding: 8805 8805 1084
+Encoding: 8805 8805 1079
 Width: 833
 GlyphClass: 2
 Flags: MW
@@ -42869,7 +42584,7 @@ EndSplineSet
 EndChar
 
 StartChar: lozenge
-Encoding: 9674 9674 1085
+Encoding: 9674 9674 1080
 Width: 588
 GlyphClass: 2
 Flags: MW
@@ -42895,7 +42610,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2219
-Encoding: 8729 8729 1086
+Encoding: 8729 8729 1081
 Width: 308
 GlyphClass: 2
 Flags: MW
@@ -42913,7 +42628,7 @@ EndSplineSet
 EndChar
 
 StartChar: integral
-Encoding: 8747 8747 1087
+Encoding: 8747 8747 1082
 Width: 577
 GlyphClass: 2
 Flags: MW
@@ -42942,7 +42657,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2423
-Encoding: 9251 9251 1088
+Encoding: 9251 9251 1083
 Width: 500
 GlyphClass: 2
 Flags: MW
@@ -42964,7 +42679,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni02D2
-Encoding: 722 722 1089
+Encoding: 722 722 1084
 Width: 0
 GlyphClass: 2
 Flags: MW
@@ -42985,7 +42700,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni02D3
-Encoding: 723 723 1090
+Encoding: 723 723 1085
 Width: 0
 GlyphClass: 2
 Flags: MW
@@ -43006,7 +42721,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni02BE
-Encoding: 702 702 1091
+Encoding: 702 702 1086
 Width: 0
 GlyphClass: 2
 Flags: MW
@@ -43027,7 +42742,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni02BF
-Encoding: 703 703 1092
+Encoding: 703 703 1087
 Width: 0
 GlyphClass: 2
 Flags: MW
@@ -43048,7 +42763,7 @@ EndSplineSet
 EndChar
 
 StartChar: zero.lf
-Encoding: 65643 -1 1093
+Encoding: 65643 -1 1088
 Width: 533
 GlyphClass: 2
 Flags: MW
@@ -43077,7 +42792,7 @@ Substitution2: "'onum' Oldstyle Figures lookup 14 subtable" zero.oldstyle
 EndChar
 
 StartChar: one.lf
-Encoding: 65644 -1 1094
+Encoding: 65644 -1 1089
 Width: 473
 GlyphClass: 2
 Flags: MW
@@ -43106,7 +42821,7 @@ Substitution2: "'onum' Oldstyle Figures lookup 14 subtable" one.oldstyle
 EndChar
 
 StartChar: two.lf
-Encoding: 65645 -1 1095
+Encoding: 65645 -1 1090
 Width: 585
 GlyphClass: 2
 Flags: MW
@@ -43140,7 +42855,7 @@ Substitution2: "'onum' Oldstyle Figures lookup 14 subtable" two.oldstyle
 EndChar
 
 StartChar: three.lf
-Encoding: 65646 -1 1096
+Encoding: 65646 -1 1091
 Width: 557
 GlyphClass: 2
 Flags: MW
@@ -43183,7 +42898,7 @@ Substitution2: "'onum' Oldstyle Figures lookup 14 subtable" three.oldstyle
 EndChar
 
 StartChar: four.lf
-Encoding: 65647 -1 1097
+Encoding: 65647 -1 1092
 Width: 591
 GlyphClass: 2
 Flags: MW
@@ -43213,7 +42928,7 @@ Substitution2: "'onum' Oldstyle Figures lookup 14 subtable" four.oldstyle
 EndChar
 
 StartChar: five.lf
-Encoding: 65648 -1 1098
+Encoding: 65648 -1 1093
 Width: 549
 GlyphClass: 2
 Flags: MW
@@ -43248,7 +42963,7 @@ Substitution2: "'onum' Oldstyle Figures lookup 14 subtable" five.oldstyle
 EndChar
 
 StartChar: six.lf
-Encoding: 65649 -1 1099
+Encoding: 65649 -1 1094
 Width: 549
 GlyphClass: 2
 Flags: MW
@@ -43282,7 +42997,7 @@ Substitution2: "'onum' Oldstyle Figures lookup 14 subtable" six.oldstyle
 EndChar
 
 StartChar: seven.lf
-Encoding: 65650 -1 1100
+Encoding: 65650 -1 1095
 Width: 520
 GlyphClass: 2
 Flags: MW
@@ -43307,7 +43022,7 @@ Substitution2: "'onum' Oldstyle Figures lookup 14 subtable" seven.oldstyle
 EndChar
 
 StartChar: eight.lf
-Encoding: 65651 -1 1101
+Encoding: 65651 -1 1096
 Width: 558
 GlyphClass: 2
 Flags: MW
@@ -43349,7 +43064,7 @@ Substitution2: "'onum' Oldstyle Figures lookup 14 subtable" eight.oldstyle
 EndChar
 
 StartChar: nine.lf
-Encoding: 65652 -1 1102
+Encoding: 65652 -1 1097
 Width: 561
 GlyphClass: 2
 Flags: MW
@@ -43383,7 +43098,7 @@ Substitution2: "'onum' Oldstyle Figures lookup 14 subtable" nine.oldstyle
 EndChar
 
 StartChar: zero.tosf
-Encoding: 65653 -1 1103
+Encoding: 65653 -1 1098
 Width: 530
 GlyphClass: 2
 Flags: MW
@@ -43413,7 +43128,7 @@ Substitution2: "'pnum' Proportional Numbers lookup 15 subtable" zero.oldstyle
 EndChar
 
 StartChar: one.tosf
-Encoding: 65654 -1 1104
+Encoding: 65654 -1 1099
 Width: 530
 GlyphClass: 2
 Flags: MW
@@ -43445,7 +43160,7 @@ Substitution2: "'pnum' Proportional Numbers lookup 15 subtable" one.oldstyle
 EndChar
 
 StartChar: two.tosf
-Encoding: 65655 -1 1105
+Encoding: 65655 -1 1100
 Width: 530
 GlyphClass: 2
 Flags: MW
@@ -43477,7 +43192,7 @@ Substitution2: "'pnum' Proportional Numbers lookup 15 subtable" two.oldstyle
 EndChar
 
 StartChar: three.tosf
-Encoding: 65656 -1 1106
+Encoding: 65656 -1 1101
 Width: 530
 GlyphClass: 2
 Flags: MW
@@ -43518,7 +43233,7 @@ Substitution2: "'pnum' Proportional Numbers lookup 15 subtable" three.oldstyle
 EndChar
 
 StartChar: four.tosf
-Encoding: 65657 -1 1107
+Encoding: 65657 -1 1102
 Width: 530
 GlyphClass: 2
 Flags: MW
@@ -43548,7 +43263,7 @@ Substitution2: "'pnum' Proportional Numbers lookup 15 subtable" four.oldstyle
 EndChar
 
 StartChar: five.tosf
-Encoding: 65658 -1 1108
+Encoding: 65658 -1 1103
 Width: 530
 GlyphClass: 2
 Flags: MW
@@ -43583,7 +43298,7 @@ Substitution2: "'pnum' Proportional Numbers lookup 15 subtable" five.oldstyle
 EndChar
 
 StartChar: six.tosf
-Encoding: 65659 -1 1109
+Encoding: 65659 -1 1104
 Width: 530
 GlyphClass: 2
 Flags: MW
@@ -43616,7 +43331,7 @@ Substitution2: "'pnum' Proportional Numbers lookup 15 subtable" six.oldstyle
 EndChar
 
 StartChar: seven.tosf
-Encoding: 65660 -1 1110
+Encoding: 65660 -1 1105
 Width: 530
 GlyphClass: 2
 Flags: MW
@@ -43641,7 +43356,7 @@ Substitution2: "'pnum' Proportional Numbers lookup 15 subtable" seven.oldstyle
 EndChar
 
 StartChar: eight.tosf
-Encoding: 65661 -1 1111
+Encoding: 65661 -1 1106
 Width: 530
 GlyphClass: 2
 Flags: MW
@@ -43681,7 +43396,7 @@ Substitution2: "'pnum' Proportional Numbers lookup 15 subtable" eight.oldstyle
 EndChar
 
 StartChar: nine.tosf
-Encoding: 65662 -1 1112
+Encoding: 65662 -1 1107
 Width: 530
 GlyphClass: 2
 Flags: MW
@@ -43714,7 +43429,7 @@ Substitution2: "'pnum' Proportional Numbers lookup 15 subtable" nine.oldstyle
 EndChar
 
 StartChar: one.Alt.tosf
-Encoding: 65663 -1 1113
+Encoding: 65663 -1 1108
 Width: 530
 GlyphClass: 2
 Flags: MW
