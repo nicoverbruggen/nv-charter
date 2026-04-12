@@ -1,0 +1,7 @@
+Copyright (c) 1989-1992, Bitstream Inc., Cambridge, MA.
+Copyright (c) 2009, 2010, 2011, 2012 Andrey V. Panov
+Copyright (c) 2013-2024 Michael Sharpe
+Copyright (c) 2025-2026 Nico Verbruggen
+
+Cartisse is based on XCharter, itself an extension of Bitstream Charter.
+Cartisse contains metrics modifications and removes selected ligatures.

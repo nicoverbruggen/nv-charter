@@ -16,12 +16,11 @@ A more verbose [license](./LICENSE) is also included as part of the distributed 
 
 ## How was this made?
 
-Manually, for the most part, with FontForge.
+Automatically, with a script. The following changes are made:
 
 - A few ligatures that did not render well on certain e-readers were removed, namely: `ff`, `ffi`, `ffl`, `fl`, `fi`.
 - Some minor tweaks to kern pairs were made to tighten up the look and feel of the font, and to address the removed ligatures.
 - Improved line height metrics were set (updated ascent/descent metrics).
-- The font was renamed and re-exported (see "Export settings" below).
 - The copyright notice has been updated to reflect the new name.
 
 ### Kern pair changes
@@ -38,7 +37,7 @@ In particular, **old style 'kern'** is important for compatibility with older de
 
 ### Source files
 
-I've included the FontForge files in this repository, you can find them in the `/src` folder. 
+I've included the original XCharter files in this repository, you can find them in the `/src` folder. 
 
 You can download the TrueType version of these fonts via [Releases](https://github.com/nicoverbruggen/cartisse/releases), which are ready to be copied to your favorite e-reader. Alternatively, you can export the source files yourself.
 
