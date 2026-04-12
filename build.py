@@ -10,7 +10,7 @@ Builds Cartisse from the static XCharter OTF sources in ./src:
 4. Saves temporary SFDs
 5. Applies metrics, line height, renaming, version, and copyright
 6. Exports TTFs to ./out/ttf/
-7. Post-processes TTFs (style flags, autohinting)
+7. Post-processes TTFs (style flags)
 8. Runs kobo-font-fix to generate Kobo variants in ./out/kf/
 
 Run with:
@@ -69,11 +69,6 @@ MANUAL_KERN_PAIRS = (
 LINE_HEIGHT = 0.20
 ASCENDER_RATIO = 0.80
 
-AUTOHINT_OPTS = [
-    "--no-info",
-    "--stem-width-mode=nss",
-]
-
 KOBOFIX_URL = (
     "https://raw.githubusercontent.com/nicoverbruggen/kobo-font-fix/main/kobofix.py"
 )
@@ -95,19 +90,6 @@ def require_fonttools():
             file=sys.stderr,
         )
         sys.exit(1)
-
-
-def check_ttfautohint():
-    if shutil.which("ttfautohint"):
-        return
-    print(
-        "ERROR: ttfautohint not found.\n"
-        "\n"
-        "Install it with:\n"
-        "  brew install ttfautohint\n",
-        file=sys.stderr,
-    )
-    sys.exit(1)
 
 
 def find_fontforge():
@@ -489,24 +471,6 @@ def fix_ttf_style_flags(ttf_path, style_suffix):
     print(f"  Normalized style flags for {style_suffix}")
 
 
-def autohint_ttf(ttf_path):
-    tmp_path = ttf_path + ".autohint.tmp"
-    result = subprocess.run(
-        ["ttfautohint"] + AUTOHINT_OPTS + [ttf_path, tmp_path],
-        capture_output=True,
-        text=True,
-    )
-
-    if result.returncode != 0:
-        print(f"  [warn] ttfautohint failed: {result.stderr.strip()}", file=sys.stderr)
-        if os.path.exists(tmp_path):
-            os.remove(tmp_path)
-        return
-
-    os.replace(tmp_path, ttf_path)
-    print("  Autohinted with ttfautohint")
-
-
 def download_kobofix(dest_path):
     if os.path.isfile(dest_path):
         print("  Using cached kobofix.py")
@@ -551,7 +515,6 @@ def main():
     print("=" * 60)
 
     require_fonttools()
-    check_ttfautohint()
     ff_cmd = find_fontforge()
 
     family = DEFAULT_FAMILY
@@ -573,7 +536,6 @@ def main():
         outline_fix = outline_input not in ("n", "no")
 
     print(f"  FontForge: {' '.join(ff_cmd)}")
-    print(f"  ttfautohint: {shutil.which('ttfautohint')}")
     print(f"  Family: {family}")
     print(f"  Outline fix: {'yes' if outline_fix else 'no'}")
     print(f"  Extra line height: {int(round(LINE_HEIGHT * 100))}%")
@@ -651,7 +613,6 @@ def build(tmp_dir, family=DEFAULT_FAMILY, outline_fix=True):
         script = build_export_script(sfd_path, ttf_path)
         run_fontforge_script(script)
         fix_ttf_style_flags(ttf_path, style)
-        autohint_ttf(ttf_path)
 
     print("\n── Step 4: Generate Kobo variants ──\n")
     kobofix_path = os.path.join(tmp_dir, "kobofix.py")

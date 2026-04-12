@@ -10,34 +10,54 @@ Take a look at a screenshot of it on my [Kobo Libra Color](https://be.kobobooks.
 
 <kbd><img src="./screenshot.png" width='400px'/></kbd>
 
-This version omits a few ligatures that consistently looked bad on e-ink displays and has adjusted metrics for improved line height. 
+This version omits a few ligatures that consistently looked bad on e-ink displays and has adjusted metrics for improved line height.
 
 A more verbose [license](./LICENSE) is also included as part of the distributed font files.
 
 ## How was this made?
 
-Automatically, with a script. The following changes are made:
+Automatically, with `build.py`. The following changes are made:
 
 - A few ligatures that did not render well on certain e-readers were removed, namely: `ff`, `ffi`, `ffl`, `fl`, `fi`.
-- Some minor tweaks to kern pairs were made to tighten up the look and feel of the font, and to address the removed ligatures.
-- Improved line height metrics were set (updated ascent/descent metrics).
+- Minor replacement kern pairs were added for `fi` and `fl` after removing those ligatures.
+- Improved line height metrics were set using a 20% line-height adjustment.
 - The copyright notice has been updated to reflect the new name.
 
-### Kern pair changes
+### Build pipeline
 
-I've included a file called [kern.md](./doc/kern.md) in this repository. I've checked and improved kern pairs to ensure these particular sentences look fine; they include often tweaked kern pairs.
+The script processes the original XCharter `.otf` files in `src/` like this:
 
-### Export settings
+1. Open the source fonts with FontForge.
+2. Remove the `ff`, `fi`, `fl`, `ffi`, and `ffl` ligature substitutions and clear those glyphs.
+3. Apply a small replacement kern pair adjustment for `fi` and `fl`.
+4. Update vertical metrics, names, version metadata, and copyright text.
+5. Export TrueType fonts to `out/ttf/`.
+6. Run `kobo-font-fix` to produce Kobo variants in `out/kf/`.
 
-Make sure to check the following items when exporting as TTF:
+### Building locally
 
-![Take a look at this screenshot.](./doc/export.png)
+Cartisse is built with Python, FontForge, `fonttools`, and `kobo-font-fix`.
 
-In particular, **old style 'kern'** is important for compatibility with older devices, like the Kobo devices that I am targeting specifically.
+If you are using Homebrew Python on macOS, a virtual environment is recommended:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install fonttools skia-pathops
+python build.py
+```
+
+You also need FontForge installed and available on your system.
+
+The build script writes normal TrueType fonts to `out/ttf/` and Kobo-ready variants to `out/kf/`.
+
+### Automated builds
+
+This repository also includes a GitHub Actions workflow that builds the fonts automatically and attaches zip files to tagged releases.
 
 ### Source files
 
-I've included the original XCharter files in this repository, you can find them in the `/src` folder. 
+I've included the original XCharter files in this repository; you can find them in `src/`.
 
 You can download the TrueType version of these fonts via [Releases](https://github.com/nicoverbruggen/cartisse/releases), which are ready to be copied to your favorite e-reader. Alternatively, you can export the source files yourself.
 
