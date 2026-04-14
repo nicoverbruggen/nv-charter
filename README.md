@@ -4,7 +4,7 @@ This repository contains **Cartisse**, a modified version of [XCharter](https://
 
 ## What is this?
 
-**Cartisse is specifically intended to be used with Kobo e-readers.** You can also use it for general word processing and the like, but if you need more glyph coverage or advanced typography features I recommend looking at alternatives like [Charis](https://software.sil.org/charis/download/). 
+**Cartisse is specifically intended to be used with e-readers.** You could also use it for general word processing and the like, but if you need more glyph coverage or advanced typography features I recommend looking at alternatives like [Charis](https://software.sil.org/charis/download/). 
 
 Take a look at a screenshot of it on my [Kobo Libra Color](https://be.kobobooks.com/nl/products/kobo-libra-colour?variant=40852311736406) here:
 
