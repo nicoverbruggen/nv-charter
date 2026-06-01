@@ -469,6 +469,30 @@ def fix_ttf_style_flags(ttf_path, style_suffix):
     print(f"  Normalized style flags for {style_suffix}")
 
 
+def fix_ttf_version_names(ttf_path):
+    """Keep head.fontRevision and name ID 5 in sync with VERSION.
+
+    FontForge's appendSFNTName only adds a Version record when one is
+    absent, so stale version strings from the source fonts survive.
+    Force-overwrite name ID 5 (Mac + Windows) and head.fontRevision.
+    """
+    try:
+        tt_lib = __import__("fontTools.ttLib", fromlist=["TTFont"])
+        TTFont = tt_lib.TTFont
+    except Exception as exc:
+        raise RuntimeError("fontTools is required to fix version names") from exc
+
+    font = TTFont(ttf_path)
+    version_string = f"Version {FONT_VERSION}"
+    font["head"].fontRevision = float(FONT_VERSION)
+    name_table = font["name"]
+    name_table.setName(version_string, 5, 1, 0, 0)
+    name_table.setName(version_string, 5, 3, 1, 0x409)
+    font.save(ttf_path)
+    font.close()
+    print(f"  Normalized version names to {version_string}")
+
+
 def download_kobofix(dest_path):
     if os.path.isfile(dest_path):
         print("  Using cached kobofix.py")
@@ -611,6 +635,7 @@ def build(tmp_dir, family=DEFAULT_FAMILY, outline_fix=True):
         script = build_export_script(sfd_path, ttf_path)
         run_fontforge_script(script)
         fix_ttf_style_flags(ttf_path, style)
+        fix_ttf_version_names(ttf_path)
 
     print("\n── Step 4: Generate Kobo variants ──\n")
     kobofix_path = os.path.join(tmp_dir, "kobofix.py")
