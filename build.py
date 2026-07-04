@@ -69,7 +69,7 @@ MANUAL_KERN_PAIRS = (
 LINE_HEIGHT = 0.20
 ASCENDER_RATIO = 0.80
 
-KOBOFIX_URL = "https://raw.githubusercontent.com/nicoverbruggen/kobo-font-fix/v0.6/kobofix.py"
+KOBOFIX_URL = "https://raw.githubusercontent.com/nicoverbruggen/kobo-font-fix/v0.9.1/kobofix.py"
 
 FONTFORGE_CMD: Optional[list[str]] = None
 
